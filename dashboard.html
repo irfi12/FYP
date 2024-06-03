@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style/dashboard.css
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Hously</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-home"></i> Explore Properties</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Favorite Properties</a></li>
+                <li><a href="#"><i class="fas fa-plus-circle"></i> Add Properties</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i> Chat</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> User Profile</a></li>
+                <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                <li><a href="#"><i class="fas fa-file-alt"></i> Pages</a></li>
+                <li><a href="#"><i class="fas fa-lock"></i> Authentication</a></li>
+                <li><a href="#"><i class="fas fa-ellipsis-h"></i> Miscellaneous</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button class="subscribe-button">Upgrade to Pro</button>
+            </div>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="header-left">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="header-right">
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </header>
+            <section class="dashboard">
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h3>Total Revenue</h3>
+                        <p>$45,890</p>
+                    </div>
+                    <div class="card">
+                        <h3>Total Visitors</h3>
+                        <p>2,456</p>
+                    </div>
+                    <div class="card">
+                        <h3>Total Properties</h3>
+                        <p>358</p>
+                    </div>
+                    <div class="card">
+                        <h3>Properties for Sale</h3>
+                        <p>243</p>
+                    </div>
+                    <div class="card">
+                        <h3>Properties for Rent</h3>
+                        <p>115</p>
+                    </div>
+                </div>
+                <div class="charts">
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
