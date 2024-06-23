@@ -108,7 +108,7 @@ section {
 .header .navbar.nav-2 .flex {
    padding-top: 0;
    padding-bottom: 0;
-   
+   inline-size: auto;
 }
 
 .header .navbar.nav-1 {
